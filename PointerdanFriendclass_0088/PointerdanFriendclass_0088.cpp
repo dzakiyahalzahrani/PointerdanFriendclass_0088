@@ -1,3 +1,4 @@
+//POINTER 2
 #include <iostream>
 using namespace std;
 
@@ -23,3 +24,4 @@ int main() {
 	pMhs->showNim();
 	return 0;
 }
+
