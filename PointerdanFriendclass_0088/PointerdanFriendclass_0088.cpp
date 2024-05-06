@@ -25,3 +25,7 @@ int main() {
 	return 0;
 }
 
+//POINTER 2
+
+#include <iostream>
+using namespace std;
