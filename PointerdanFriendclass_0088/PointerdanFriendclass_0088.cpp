@@ -13,4 +13,8 @@ public:
 int main() {
 	mahasiswa mhs{ 1 };//objek mhs
 	mhs.showNim(); //member akses operator
+
+	mahasiswa& refMhs = mhs;
+	refMhs.nim = 2; 
+	mhs.showNim();
 }
