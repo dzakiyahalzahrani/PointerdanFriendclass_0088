@@ -14,7 +14,12 @@ int main() {
 	mahasiswa mhs{ 1 };//objek mhs
 	mhs.showNim(); //member akses operator
 
-	mahasiswa& refMhs = mhs;
+	mahasiswa &refMhs = mhs;
 	refMhs.nim = 2; 
 	mhs.showNim();
+
+	mahasiswa *pMhs = &mhs;
+	pMhs->nim = 3;
+	pMhs->showNim();
+	return 0;
 }
